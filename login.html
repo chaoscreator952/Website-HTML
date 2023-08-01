@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="tugas.html">
+        <fieldset>
+            <legend>Form Login</legend>
+            <label>Username :</label>
+            <input type="text" required>
+            <br><br>
+            <label>Email :</label>
+            <input type="email" required>
+        </fieldset>
+        <fieldset>
+            <legend>Pertanyaan:</legend>
+            <label>Dari mana belajar HTML pertama Kali?</label>
+            <select name="html" id="html">
+                <option value="Website_HTML" selected>Website HTML</option>
+                <option value="Sekolah">Sekolah</option>
+                <option value="Kursus">Kursus</option>
+                <option value="Lainnya">Lainnya</option>
+            </select>
+            <br><br>
+            <label>Apakah anda mengerjakan tugas pertama HTML ini?</label><br>
+            <input type="radio" name="radio-btn" value="Ya" required> Ya
+            <input type="radio" name="radio-btn" value="Mungkin" required> Mungkin
+            <input type="radio" name="radio-btn" value="Tidak" required> Tidak
+            <br><br>
+            <label>Komentar</label><br>
+            <textarea name="Komentar" id="Komentar" cols="50" rows="10"></textarea><br>
+            <input type="checkbox" required>Kirim hasil jawaban ini ke email
+            <br>
+            <input type="submit" value="sudah menyetujui dengan isian yang dilakukan">
+            <input type="reset" value="hapus isian">
+        </fieldset>
+    </form>
+</body>
+
+</html>
